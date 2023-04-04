@@ -1,0 +1,151 @@
+\hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop}{}\doxysection{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop Class Reference}
+\label{class_q_a___lab3___grigoryev_1_1_growing_crop}\index{QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}}
+
+
+Производный класс \char`\"{}Выращивание урожая\char`\"{}.  
+
+
+Inheritance diagram for QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_q_a___lab3___grigoryev_1_1_growing_crop}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_growing_crop_abda552f0b9aab0f72fd43e16b4a6670b}{Growing\+Crop}} (double fertilizer\+Cost\+Per\+Hectare, double revenue\+Per\+Hectare, double additional\+Economic\+Activity\+Profit)
+\begin{DoxyCompactList}\small\item\em Конструктор класса Growing\+Crop, инициализирующий переменные fertilizer\+Cost\+Per\+Hectare, revenue\+Per\+Hectare и additional\+Economic\+Activity\+Profit значениями переданных параметров \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop_ac002db81e4a5f8e15b4416f908b7c4a1}\label{class_q_a___lab3___grigoryev_1_1_growing_crop_ac002db81e4a5f8e15b4416f908b7c4a1}} 
+void {\bfseries Put\+Additional\+Economic\+Activity\+Profit} ()
+\begin{DoxyCompactList}\small\item\em Метод, вызывающий пользовательский ввод значения переменной additional\+Economic\+Activity\+Profit. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop_adcbfabd1ee72e332b5830ff7a443b054}\label{class_q_a___lab3___grigoryev_1_1_growing_crop_adcbfabd1ee72e332b5830ff7a443b054}} 
+void {\bfseries Get\+Additional\+Economic\+Activity\+Profit} ()
+\begin{DoxyCompactList}\small\item\em Метод, выводящий значение переменной additional\+Economic\+Activity\+Profit в консоль \end{DoxyCompactList}\item 
+override double \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_growing_crop_adb96cbfbd0b9de0e628154a788a43640}{Calculate\+Profit}} (int tons\+Planted)
+\begin{DoxyCompactList}\small\item\em Переопределенный метод Calculate\+Profit, расчитывающий прибыль от посева определенного количества тонн культуры, учитывая дополнительный экономический доход \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_growing_crop_a9f3b0e68456aab4bfc6a72aa63fe57af}{Init}} ()
+\begin{DoxyCompactList}\small\item\em Переопределенный метод Init от базового класса Crop Запрос у пользователя на ввод прибыли от дополнительной экономической деятельности и сохранение данных в поле additional\+Economic\+Activity\+Profit. \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_growing_crop_a6265f8e195d15b215310257c0e61c546}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Переопределенный метод Display от базового класса Crop Выводит на экран информацию о культуре То есть стоимость затрат на удобрение на гектар, стоимость от продажи с одного гектара и прибыль от дополнительной экономической деятельности \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a79e2284d2339c5f92109dd979dcf9182}{Crop}} (double fertilizer\+Cost\+Per\+Hectare, double revenue\+Per\+Hectare)
+\begin{DoxyCompactList}\small\item\em Конструктор класса Crop, инициализирующий переменные fertilizer\+Cost\+Per\+Hectare и revenue\+Per\+Hectare значениями переданных параметров \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a04430daa447ca8b393b68bc68c589157}{Calculate\+Profit}} (int tons\+Planted)
+\begin{DoxyCompactList}\small\item\em Метод, расчитывающий прибыль от посева определенного количества тонн культуры Прибыль от посева заданного количества тонн культуры \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_ab8f1b93d354312abd1a13ca105c69c38}{Init}} ()
+\begin{DoxyCompactList}\small\item\em Метод, вызываемый для ввода пользователем значений переменных \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a32078db7d1bcfa4458e243dc59669daa}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Метод, выводящий значения переменных fertilizer\+Cost\+Per\+Hectare и revenue\+Per\+Hectare в консоль \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop_ac6671115c73370f40c4f78624030519e}\label{class_q_a___lab3___grigoryev_1_1_growing_crop_ac6671115c73370f40c4f78624030519e}} 
+double {\bfseries Additional\+Economic\+Activity\+Profit}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Свойство Additional\+Economic\+Activity\+Profit, позволяющее получить и задать значение переменной additional\+Economic\+Activity\+Profit. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}} \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a2891c1b964167833b62d1f369b0747c0}{operator+}} (\mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}} c1, \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}} c2)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_ae57eb7b8178e3d298ac70d1b280c20f8}\label{class_q_a___lab3___grigoryev_1_1_crop_ae57eb7b8178e3d298ac70d1b280c20f8}} 
+double {\bfseries fertilizer\+Cost\+Per\+Hectare}
+\item 
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_a847c1a8d54848ce527a9b116fb8e97d8}\label{class_q_a___lab3___grigoryev_1_1_crop_a847c1a8d54848ce527a9b116fb8e97d8}} 
+double {\bfseries revenue\+Per\+Hectare}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Производный класс \char`\"{}Выращивание урожая\char`\"{}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop_abda552f0b9aab0f72fd43e16b4a6670b}\label{class_q_a___lab3___grigoryev_1_1_growing_crop_abda552f0b9aab0f72fd43e16b4a6670b}} 
+\index{QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}!GrowingCrop@{GrowingCrop}}
+\index{GrowingCrop@{GrowingCrop}!QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}}
+\doxysubsubsection{\texorpdfstring{GrowingCrop()}{GrowingCrop()}}
+{\footnotesize\ttfamily QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop.\+Growing\+Crop (\begin{DoxyParamCaption}\item[{double}]{fertilizer\+Cost\+Per\+Hectare,  }\item[{double}]{revenue\+Per\+Hectare,  }\item[{double}]{additional\+Economic\+Activity\+Profit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор класса Growing\+Crop, инициализирующий переменные fertilizer\+Cost\+Per\+Hectare, revenue\+Per\+Hectare и additional\+Economic\+Activity\+Profit значениями переданных параметров 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fertilizer\+Cost\+Per\+Hectare} & \\
+\hline
+\end{DoxyParams}
+Стоимость удобрений на гектар 
+\begin{DoxyParams}{Parameters}
+{\em revenue\+Per\+Hectare} & \\
+\hline
+\end{DoxyParams}
+Доход с гектара 
+\begin{DoxyParams}{Parameters}
+{\em additional\+Economic\+Activity\+Profit} & \\
+\hline
+\end{DoxyParams}
+Дополнительный экономический доход 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop_adb96cbfbd0b9de0e628154a788a43640}\label{class_q_a___lab3___grigoryev_1_1_growing_crop_adb96cbfbd0b9de0e628154a788a43640}} 
+\index{QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}!CalculateProfit@{CalculateProfit}}
+\index{CalculateProfit@{CalculateProfit}!QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}}
+\doxysubsubsection{\texorpdfstring{CalculateProfit()}{CalculateProfit()}}
+{\footnotesize\ttfamily override double QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop.\+Calculate\+Profit (\begin{DoxyParamCaption}\item[{int}]{tons\+Planted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Переопределенный метод Calculate\+Profit, расчитывающий прибыль от посева определенного количества тонн культуры, учитывая дополнительный экономический доход 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tons\+Planted} & \\
+\hline
+\end{DoxyParams}
+Количество тонн посева \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a04430daa447ca8b393b68bc68c589157}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop}}.
+
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop_a6265f8e195d15b215310257c0e61c546}\label{class_q_a___lab3___grigoryev_1_1_growing_crop_a6265f8e195d15b215310257c0e61c546}} 
+\index{QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}!Display@{Display}}
+\index{Display@{Display}!QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily override void QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop.\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Переопределенный метод Display от базового класса Crop Выводит на экран информацию о культуре То есть стоимость затрат на удобрение на гектар, стоимость от продажи с одного гектара и прибыль от дополнительной экономической деятельности 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a32078db7d1bcfa4458e243dc59669daa}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop}}.
+
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_growing_crop_a9f3b0e68456aab4bfc6a72aa63fe57af}\label{class_q_a___lab3___grigoryev_1_1_growing_crop_a9f3b0e68456aab4bfc6a72aa63fe57af}} 
+\index{QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}!Init@{Init}}
+\index{Init@{Init}!QA\_Lab3\_Grigoryev.GrowingCrop@{QA\_Lab3\_Grigoryev.GrowingCrop}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily override void QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop.\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Переопределенный метод Init от базового класса Crop Запрос у пользователя на ввод прибыли от дополнительной экономической деятельности и сохранение данных в поле additional\+Economic\+Activity\+Profit. 
+
+
+
+Reimplemented from \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_ab8f1b93d354312abd1a13ca105c69c38}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+QA\+\_\+\+Lab3\+\_\+\+Grigoryev/\+QA\+\_\+\+Lab3\+\_\+\+Grigoryev/Program.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,131 @@
+\hypertarget{class_q_a___lab3___grigoryev_1_1_crop}{}\doxysection{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop Class Reference}
+\label{class_q_a___lab3___grigoryev_1_1_crop}\index{QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}}
+
+
+Базовый класс \char`\"{}Урожай\char`\"{}.  
+
+
+Inheritance diagram for QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_q_a___lab3___grigoryev_1_1_crop}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a79e2284d2339c5f92109dd979dcf9182}{Crop}} (double fertilizer\+Cost\+Per\+Hectare, double revenue\+Per\+Hectare)
+\begin{DoxyCompactList}\small\item\em Конструктор класса Crop, инициализирующий переменные fertilizer\+Cost\+Per\+Hectare и revenue\+Per\+Hectare значениями переданных параметров \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a04430daa447ca8b393b68bc68c589157}{Calculate\+Profit}} (int tons\+Planted)
+\begin{DoxyCompactList}\small\item\em Метод, расчитывающий прибыль от посева определенного количества тонн культуры Прибыль от посева заданного количества тонн культуры \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_ab8f1b93d354312abd1a13ca105c69c38}{Init}} ()
+\begin{DoxyCompactList}\small\item\em Метод, вызываемый для ввода пользователем значений переменных \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a32078db7d1bcfa4458e243dc59669daa}{Display}} ()
+\begin{DoxyCompactList}\small\item\em Метод, выводящий значения переменных fertilizer\+Cost\+Per\+Hectare и revenue\+Per\+Hectare в консоль \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}} \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop_a2891c1b964167833b62d1f369b0747c0}{operator+}} (\mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}} c1, \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}} c2)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_ae57eb7b8178e3d298ac70d1b280c20f8}\label{class_q_a___lab3___grigoryev_1_1_crop_ae57eb7b8178e3d298ac70d1b280c20f8}} 
+double {\bfseries fertilizer\+Cost\+Per\+Hectare}
+\item 
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_a847c1a8d54848ce527a9b116fb8e97d8}\label{class_q_a___lab3___grigoryev_1_1_crop_a847c1a8d54848ce527a9b116fb8e97d8}} 
+double {\bfseries revenue\+Per\+Hectare}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Базовый класс \char`\"{}Урожай\char`\"{}. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_a79e2284d2339c5f92109dd979dcf9182}\label{class_q_a___lab3___grigoryev_1_1_crop_a79e2284d2339c5f92109dd979dcf9182}} 
+\index{QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}!Crop@{Crop}}
+\index{Crop@{Crop}!QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}}
+\doxysubsubsection{\texorpdfstring{Crop()}{Crop()}}
+{\footnotesize\ttfamily QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop.\+Crop (\begin{DoxyParamCaption}\item[{double}]{fertilizer\+Cost\+Per\+Hectare,  }\item[{double}]{revenue\+Per\+Hectare }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор класса Crop, инициализирующий переменные fertilizer\+Cost\+Per\+Hectare и revenue\+Per\+Hectare значениями переданных параметров 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fertilizer\+Cost\+Per\+Hectare} & \\
+\hline
+\end{DoxyParams}
+Стоимость удобрений на гектар 
+\begin{DoxyParams}{Parameters}
+{\em revenue\+Per\+Hectare} & \\
+\hline
+\end{DoxyParams}
+Доход с гектара 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_a04430daa447ca8b393b68bc68c589157}\label{class_q_a___lab3___grigoryev_1_1_crop_a04430daa447ca8b393b68bc68c589157}} 
+\index{QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}!CalculateProfit@{CalculateProfit}}
+\index{CalculateProfit@{CalculateProfit}!QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}}
+\doxysubsubsection{\texorpdfstring{CalculateProfit()}{CalculateProfit()}}
+{\footnotesize\ttfamily virtual double QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop.\+Calculate\+Profit (\begin{DoxyParamCaption}\item[{int}]{tons\+Planted }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Метод, расчитывающий прибыль от посева определенного количества тонн культуры Прибыль от посева заданного количества тонн культуры 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tons\+Planted} & \\
+\hline
+\end{DoxyParams}
+Количество тонн посева \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_growing_crop_adb96cbfbd0b9de0e628154a788a43640}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop}}.
+
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_a32078db7d1bcfa4458e243dc59669daa}\label{class_q_a___lab3___grigoryev_1_1_crop_a32078db7d1bcfa4458e243dc59669daa}} 
+\index{QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}!Display@{Display}}
+\index{Display@{Display}!QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}}
+\doxysubsubsection{\texorpdfstring{Display()}{Display()}}
+{\footnotesize\ttfamily virtual void QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop.\+Display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Метод, выводящий значения переменных fertilizer\+Cost\+Per\+Hectare и revenue\+Per\+Hectare в консоль 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_growing_crop_a6265f8e195d15b215310257c0e61c546}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop}}.
+
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_ab8f1b93d354312abd1a13ca105c69c38}\label{class_q_a___lab3___grigoryev_1_1_crop_ab8f1b93d354312abd1a13ca105c69c38}} 
+\index{QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}!Init@{Init}}
+\index{Init@{Init}!QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}}
+\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
+{\footnotesize\ttfamily virtual void QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop.\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Метод, вызываемый для ввода пользователем значений переменных 
+
+
+
+Reimplemented in \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_growing_crop_a9f3b0e68456aab4bfc6a72aa63fe57af}{QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Growing\+Crop}}.
+
+\mbox{\Hypertarget{class_q_a___lab3___grigoryev_1_1_crop_a2891c1b964167833b62d1f369b0747c0}\label{class_q_a___lab3___grigoryev_1_1_crop_a2891c1b964167833b62d1f369b0747c0}} 
+\index{QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}!operator+@{operator+}}
+\index{operator+@{operator+}!QA\_Lab3\_Grigoryev.Crop@{QA\_Lab3\_Grigoryev.Crop}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}} QA\+\_\+\+Lab3\+\_\+\+Grigoryev.\+Crop.\+operator+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}}}]{c1,  }\item[{\mbox{\hyperlink{class_q_a___lab3___grigoryev_1_1_crop}{Crop}}}]{c2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Оператор сложения для двух объектов Crop, создает новый объект Crop с переменными значениями, которые являются средними значениями переменных объектов, складываемых оператором сложения $ fertilizerCostPerHectare = (c1.fertilizerCostPerHectare + c2.fertilizerCostPerHectare) / 2 $ $ revenuePerHectare = (c1.revenuePerHectare + c2.revenuePerHectare) / 2 $ \begin{DoxyReturn}{Returns}
+новый экземпляр удобрение и стоимость на гектар 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+QA\+\_\+\+Lab3\+\_\+\+Grigoryev/\+QA\+\_\+\+Lab3\+\_\+\+Grigoryev/Program.\+cs\end{DoxyCompactItemize}

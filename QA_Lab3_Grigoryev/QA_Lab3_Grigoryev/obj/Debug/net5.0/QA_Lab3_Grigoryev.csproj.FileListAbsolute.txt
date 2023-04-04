@@ -1,0 +1,16 @@
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\bin\Debug\net5.0\QA_Lab3_Grigoryev.exe
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\bin\Debug\net5.0\QA_Lab3_Grigoryev.deps.json
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\bin\Debug\net5.0\QA_Lab3_Grigoryev.runtimeconfig.json
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\bin\Debug\net5.0\QA_Lab3_Grigoryev.runtimeconfig.dev.json
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\bin\Debug\net5.0\QA_Lab3_Grigoryev.dll
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\bin\Debug\net5.0\ref\QA_Lab3_Grigoryev.dll
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\bin\Debug\net5.0\QA_Lab3_Grigoryev.pdb
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.csproj.AssemblyReference.cache
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.GeneratedMSBuildEditorConfig.editorconfig
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.AssemblyInfoInputs.cache
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.AssemblyInfo.cs
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.csproj.CoreCompileInputs.cache
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.dll
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\ref\QA_Lab3_Grigoryev.dll
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.pdb
+F:\lab3test\QA_Lab3_Grigoryev\QA_Lab3_Grigoryev\obj\Debug\net5.0\QA_Lab3_Grigoryev.genruntimeconfig.cache

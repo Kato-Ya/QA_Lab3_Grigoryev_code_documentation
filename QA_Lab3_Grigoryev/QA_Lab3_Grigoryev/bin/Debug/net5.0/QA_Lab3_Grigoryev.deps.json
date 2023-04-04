@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "QA_Lab3_Grigoryev/1.0.0": {
+        "runtime": {
+          "QA_Lab3_Grigoryev.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QA_Lab3_Grigoryev/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
